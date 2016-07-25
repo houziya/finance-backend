@@ -1,0 +1,276 @@
+[ 2016-07-18T08:46:01+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T08:46:01+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT * FROM `admin_menu` ORDER BY `sort` ASC,id ASC 
+[ 2016-07-18T08:46:01+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T08:56:01+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T08:56:01+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T09:06:23+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T09:06:23+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T09:16:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T09:16:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T09:26:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T09:26:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T09:36:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T09:36:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T09:46:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T09:46:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T09:56:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T09:56:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:06:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:06:22+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:10:49+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:10:49+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:10:49+08:00 ] NOTIC: [8] Array to string conversion E:\xampp\htdocs\finance\framework\core\fee_exception.php Á¨¨ 47 Ë°å.
+[ 2016-07-18T10:10:49+08:00 ] NOTIC: [8] Undefined index: file E:\xampp\htdocs\finance\framework\core\fee_exception.php Á¨¨ 45 Ë°å.
+[ 2016-07-18T10:10:49+08:00 ] NOTIC: [8] Undefined index: line E:\xampp\htdocs\finance\framework\core\fee_exception.php Á¨¨ 45 Ë°å.
+[ 2016-07-18T10:10:49+08:00 ] NOTIC: [8] Array to string conversion E:\xampp\htdocs\finance\framework\core\fee_exception.php Á¨¨ 47 Ë°å.
+[ 2016-07-18T10:20:43+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:20:43+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:30:44+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:30:44+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:40:43+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:40:43+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:50:44+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T10:50:44+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T11:00:43+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T11:00:43+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T11:10:44+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T11:10:44+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T11:20:35+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ƒ˙µƒ÷˜ª˙÷–µƒ»Ìº˛÷–÷π¡À“ª∏ˆ“—Ω®¡¢µƒ¡¨Ω”°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T11:20:35+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ƒ˙µƒ÷˜ª˙÷–µƒ»Ìº˛÷–÷π¡À“ª∏ˆ“—Ω®¡¢µƒ¡¨Ω”°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T11:30:23+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T11:30:23+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T11:34:13+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-18T11:34:13+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-18T11:34:13+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `sortware_client_oparation` WHERE ( `id` = 5 ) LIMIT 1  
+[ 2016-07-18T11:34:13+08:00 ] WARN: [2048] Declaration of model_finance_software::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\software.php Á¨¨ 130 Ë°å.
+[ 2016-07-18T11:34:13+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware`
+[ 2016-07-18T11:34:13+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_version`
+[ 2016-07-18T11:34:13+08:00 ] SQL:  RunTime:0.003000s SQL = SELECT sortware_version.id,sortware_version.version,q.id as qid,q.qu_type,q.qu_frequency,q.db_type,q.db_name,q.db_username,q.db_pwd,q.db_address,q.db_sql,q.status FROM `sortware_version` LEFT JOIN sortware_version_queryconfig AS q ON sortware_version.id = q.vid WHERE ( `sort_id` = 7 ) AND ( sortware_version.status = 1 ) AND ( q.status IN ('1','2') ) 
+[ 2016-07-18T11:34:13+08:00 ] WARN: [2048] Declaration of model_finance_softwareVersionQueryConfig::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareversionqueryconfig.php Á¨¨ 100 Ë°å.
+[ 2016-07-18T11:34:13+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_version_queryconfig`
+[ 2016-07-18T11:34:13+08:00 ] NOTIC: [8192] Function spliti() is deprecated E:\xampp\htdocs\finance\app\model\finance\softwareversionqueryconfig.php Á¨¨ 91 Ë°å.
+[ 2016-07-18T11:34:13+08:00 ] NOTIC: [8192] Function spliti() is deprecated E:\xampp\htdocs\finance\app\model\finance\softwareversionqueryconfig.php Á¨¨ 91 Ë°å.
+[ 2016-07-18T11:40:44+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T11:40:44+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T11:50:44+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://172.16.0.252:3306) E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T11:50:44+08:00 ] WARN: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ E:\xampp\htdocs\finance\framework\library\db\mysql.php Á¨¨ 34 Ë°å.
+[ 2016-07-18T12:00:23+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T12:00:23+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T12:10:23+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T12:10:23+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T12:20:23+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T12:20:23+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T12:30:23+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T12:30:23+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T12:40:23+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T12:40:23+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T12:50:23+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T12:50:23+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T13:00:23+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T13:00:23+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T13:39:54+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-18T13:39:55+08:00 ] NOTIC: [8] Undefined index: file E:\xampp\htdocs\finance\framework\function\function.php Á¨¨ 112 Ë°å.
+[ 2016-07-18T13:39:55+08:00 ] NOTIC: [8] Undefined index: line E:\xampp\htdocs\finance\framework\function\function.php Á¨¨ 112 Ë°å.
+[ 2016-07-18T13:40:00+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T13:40:01+08:00 ] NOTIC: [8] Undefined index: file E:\xampp\htdocs\finance\framework\function\function.php Á¨¨ 112 Ë°å.
+[ 2016-07-18T13:40:01+08:00 ] NOTIC: [8] Undefined index: line E:\xampp\htdocs\finance\framework\function\function.php Á¨¨ 112 Ë°å.
+[ 2016-07-18T13:40:01+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T13:40:02+08:00 ] NOTIC: [8] Undefined index: file E:\xampp\htdocs\finance\framework\function\function.php Á¨¨ 112 Ë°å.
+[ 2016-07-18T13:40:02+08:00 ] NOTIC: [8] Undefined index: line E:\xampp\htdocs\finance\framework\function\function.php Á¨¨ 112 Ë°å.
+[ 2016-07-18T13:50:52+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-18T13:50:53+08:00 ] NOTIC: [8] Undefined index: file E:\xampp\htdocs\finance\framework\function\function.php Á¨¨ 112 Ë°å.
+[ 2016-07-18T13:50:53+08:00 ] NOTIC: [8] Undefined index: line E:\xampp\htdocs\finance\framework\function\function.php Á¨¨ 112 Ë°å.
+[ 2016-07-18T13:51:01+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-18T13:51:02+08:00 ] NOTIC: [8] Undefined index: file E:\xampp\htdocs\finance\framework\function\function.php Á¨¨ 112 Ë°å.
+[ 2016-07-18T13:51:02+08:00 ] NOTIC: [8] Undefined index: line E:\xampp\htdocs\finance\framework\function\function.php Á¨¨ 112 Ë°å.
+[ 2016-07-18T13:51:27+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-18T13:51:27+08:00 ] WARN: [2048] Declaration of model_finance_software::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\software.php Á¨¨ 130 Ë°å.
+[ 2016-07-18T13:51:27+08:00 ] SQL:  RunTime:0.017001s SQL = SHOW COLUMNS FROM `sortware`
+[ 2016-07-18T13:51:27+08:00 ] WARN: [2048] Declaration of model_finance_softwareVersionQueryConfig::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareversionqueryconfig.php Á¨¨ 100 Ë°å.
+[ 2016-07-18T13:51:27+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_version_queryconfig`
+[ 2016-07-18T13:51:27+08:00 ] NOTIC: [8192] Function spliti() is deprecated E:\xampp\htdocs\finance\app\model\finance\softwareversionqueryconfig.php Á¨¨ 91 Ë°å.
+[ 2016-07-18T13:51:27+08:00 ] NOTIC: [8192] Function spliti() is deprecated E:\xampp\htdocs\finance\app\model\finance\softwareversionqueryconfig.php Á¨¨ 91 Ë°å.
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT `uid`,`is_token`,`token` FROM `admin_user` WHERE ( `username` = 'admin' ) LIMIT 1  
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `admin_user` WHERE ( `username` = 'admin' ) LIMIT 1  
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `admin_user` WHERE ( `uid` = 1 ) LIMIT 1  
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_role_user`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `role_id` FROM `admin_role_user` WHERE ( `uid` = 1 ) 
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_role_menu`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `menu_id` FROM `admin_role_menu` WHERE role_id IN(1) 
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `role_id` FROM `admin_role_user` WHERE ( `uid` = 1 ) 
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `menu_id` FROM `admin_role_menu` WHERE role_id IN(1) 
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT `username` FROM `admin_user` WHERE ( `uid` = 1 ) LIMIT 1  
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `area`
+[ 2016-07-18T15:24:34+08:00 ] ERR: Table 'finance.area' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `area`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `ip_address`
+[ 2016-07-18T15:24:34+08:00 ] ERR: Table 'finance.ip_address' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `ip_address`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `address`,`province`,`city` FROM `ip_address` WHERE num_begin <= '2130706433' AND num_end >= '2130706433' ORDER BY id asc LIMIT 1  
+[ 2016-07-18T15:24:34+08:00 ] ERR: Table 'finance.ip_address' doesn't exist
+ [ SQLËØ≠Âè• ] : SELECT `address`,`province`,`city` FROM `ip_address` WHERE num_begin <= '2130706433' AND num_end >= '2130706433' ORDER BY id asc LIMIT 1  
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `login`
+[ 2016-07-18T15:24:34+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = INSERT INTO `login` (`type`,`uid`,`username`,`add_time`,`is_admin`,`ip`,`address`) VALUES (1,'1','admin',1468826674,1,'127.0.0.1','')
+[ 2016-07-18T15:24:34+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQLËØ≠Âè• ] : INSERT INTO `login` (`type`,`uid`,`username`,`add_time`,`is_admin`,`ip`,`address`) VALUES (1,'1','admin',1468826674,1,'127.0.0.1','')
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `user`
+[ 2016-07-18T15:24:34+08:00 ] NOTIC: [8] Undefined variable: set E:\xampp\htdocs\finance\framework\library\db\db.php Á¨¨ 284 Ë°å.
+[ 2016-07-18T15:24:34+08:00 ] WARN: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\xampp\htdocs\finance\framework\library\db\db.php Á¨¨ 284 Ë°å.
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.001000s SQL = UPDATE `user` SET 
+[ 2016-07-18T15:24:34+08:00 ] ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQLËØ≠Âè• ] : UPDATE `user` SET 
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `user`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT * FROM `user` LIMIT 1  
+[ 2016-07-18T15:24:34+08:00 ] NOTIC: [8] Undefined index: uid E:\xampp\htdocs\finance\app\model\user.php Á¨¨ 98 Ë°å.
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T15:24:34+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.012001s SQL = SHOW COLUMNS FROM `admin_user_menu`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT * FROM `admin_user_menu` WHERE uid = '1' ORDER BY id asc LIMIT 10  
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_role_user`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `role_id` FROM `admin_role_user` WHERE ( `uid` = 1 ) 
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_role_menu`
+[ 2016-07-18T15:24:34+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT `menu_id` FROM `admin_role_menu` WHERE role_id IN(1) 
+[ 2016-07-18T15:24:35+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 58 Ë°å.
+[ 2016-07-18T15:24:35+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 58 Ë°å.
+[ 2016-07-18T15:24:35+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 120 Ë°å.
+[ 2016-07-18T15:24:35+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 120 Ë°å.
+[ 2016-07-18T15:24:35+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 120 Ë°å.
+[ 2016-07-18T15:24:35+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 120 Ë°å.
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T15:24:35+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_role`
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT `name` FROM `admin_role` WHERE id = 1 LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `login`
+[ 2016-07-18T15:24:35+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `login` WHERE uid = 1 ORDER BY id desc LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQLËØ≠Âè• ] : SELECT * FROM `login` WHERE uid = 1 ORDER BY id desc LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.003001s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `user`
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `attachment`
+[ 2016-07-18T15:24:35+08:00 ] ERR: Table 'finance.attachment' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `attachment`
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT COUNT(*) AS tp_count FROM `attachment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] ERR: Table 'finance.attachment' doesn't exist
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `attachment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `comment`
+[ 2016-07-18T15:24:35+08:00 ] ERR: Table 'finance.comment' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `comment`
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] ERR: Table 'finance.comment' doesn't exist
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `feedback`
+[ 2016-07-18T15:24:35+08:00 ] ERR: Table 'finance.feedback' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `feedback`
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `feedback` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] ERR: Table 'finance.feedback' doesn't exist
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `feedback` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `gifts_order`
+[ 2016-07-18T15:24:35+08:00 ] ERR: Table 'finance.gifts_order' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `gifts_order`
+[ 2016-07-18T15:24:35+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT COUNT(*) AS tp_count FROM `gifts_order` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] ERR: Table 'finance.gifts_order' doesn't exist
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `gifts_order` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-18T15:24:35+08:00 ] NOTIC: [8] Undefined index: identifying E:\xampp\htdocs\finance\app\model\admin\adminuser.php Á¨¨ 65 Ë°å.
+[ 2016-07-18T15:24:35+08:00 ] NOTIC: [8] Undefined index: identifying E:\xampp\htdocs\finance\app\model\admin\adminuser.php Á¨¨ 65 Ë°å.
+[ 2016-07-18T15:24:36+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 58 Ë°å.
+[ 2016-07-18T15:24:36+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 58 Ë°å.
+[ 2016-07-18T15:24:36+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 120 Ë°å.
+[ 2016-07-18T15:24:36+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 120 Ë°å.
+[ 2016-07-18T15:24:36+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 120 Ë°å.
+[ 2016-07-18T15:24:36+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php Á¨¨ 120 Ë°å.
+[ 2016-07-18T15:24:36+08:00 ] NOTIC: [8] Undefined index: ip E:\xampp\htdocs\finance\app\data\cache\tpl\admin\820e2d240855ede53d506c7ac598f1f7.php Á¨¨ 39 Ë°å.
+[ 2016-07-18T15:34:36+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T15:34:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T15:44:36+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T15:44:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T15:54:36+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T15:54:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T16:04:36+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T16:04:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T16:14:36+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T16:14:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T16:24:36+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T16:24:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T16:34:36+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T16:34:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T16:44:36+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T16:44:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T16:54:36+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T16:54:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T17:04:36+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T17:04:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T17:14:36+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T17:14:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T17:24:36+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T17:24:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T17:34:37+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T17:34:37+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T17:44:37+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T17:44:37+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T17:54:37+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T17:54:37+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T18:04:37+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T18:04:37+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T18:14:51+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T18:14:51+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T18:24:42+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T18:24:42+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T18:34:37+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T18:34:37+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T18:44:37+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T18:44:37+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T18:54:37+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T18:54:37+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T19:04:37+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T19:04:37+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T19:14:37+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T19:14:37+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T19:24:37+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T19:24:37+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T19:34:37+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T19:34:37+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.
+[ 2016-07-18T19:44:38+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-18T19:44:38+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php Á¨¨ 21 Ë°å.

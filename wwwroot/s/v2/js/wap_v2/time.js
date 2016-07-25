@@ -1,0 +1,19 @@
+/*时间筛选 兼容华为手机*/
+$(function(){
+    $('#end')[0].addEventListener('click',function(){
+        $('.modal-backdrop').show()
+        $('#myModa_time01').show()
+    })
+    $('#first')[0].addEventListener('click',function(){
+        $('.modal-backdrop').show()
+        $('#myModa_time01').show()
+    })
+    $('.js-primary')[0].addEventListener('click',function(){
+        $('.modal-backdrop').hide()
+        $('#myModa_time01').hide()
+    })
+    $('.js-default')[0].addEventListener('click',function(){
+        $('.modal-backdrop').hide()
+        $('#myModa_time01').hide()
+    })
+});

@@ -1,0 +1,17 @@
+#
+# robots.txt for »À»ÀÕ∂
+#
+
+User-agent:*
+Disallow:/financing/
+Disallow:/tzr/
+Disallow:/dianpu/
+Disallow:/kwl/
+Disallow:/mtbd/
+Sitemap: http://www.renrentou.com/sitemap-project.txt
+Sitemap: http://www.renrentou.com/sitemap-article.txt
+Sitemap: http://www.renrentou.com/sitemap-projectlist.txt
+Sitemap: http://www.renrentou.com/sitemap-special.txt
+Sitemap: http://www.renrentou.com/sitemap-shop.txt
+Sitemap: http://www.renrentou.com/sitemap-star.txt
+Sitemap: http://www.renrentou.com/sitemap-black.txt

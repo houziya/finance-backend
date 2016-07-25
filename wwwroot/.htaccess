@@ -1,0 +1,64 @@
+RewriteEngine on
+
+RewriteRule ^sitemap.txt$ /sitemap/sitemap/ [L]
+RewriteRule ^sitemap-project.txt$ /sitemap/project/ [L]
+RewriteRule ^sitemap-article.txt$ /sitemap/article/ [L]
+RewriteRule ^sitemap-projectlist.txt$ /sitemap/projectlist/ [L]
+RewriteRule ^sitemap-special.txt$ /sitemap/special/ [L]
+RewriteRule ^sitemap-shop.txt$ /sitemap/shop/ [L]
+RewriteRule ^sitemap-star.txt$ /sitemap/star/ [L]
+RewriteRule ^sitemap-black.txt$ /sitemap/black/ [L]
+
+# 文章列表
+RewriteRule ^article_([\d|a-z]+)_(\d+)\/?$ index.php?c=industryinfo&a=index&type_id=$1&p=$2 [L]
+# 文章内容
+RewriteRule ^article_(\d+)\.html$ index.php?c=industryinfo&a=hycontent&id=$1 [L]
+
+
+#众筹搜索-项目列表
+RewriteRule ^projectlist\/$ index.php?c=project&a=projectsearch [L]
+RewriteRule ^projectlist\/(.*)\/?$ index.php?c=project&a=projectsearch&keyword=$1 [L]
+RewriteRule ^projectlist-(\d+)\/?$ index.php?c=project&a=projectsearch&p=$1 [L]
+RewriteRule ^projectlist-(\d+)/(.*)?$ index.php?c=project&a=projectsearch&keyword=$2&p=$1 [L]
+
+
+# 黑名单-类型-分页-搜索词
+RewriteRule ^black-(.*)-(\d+)\/(.*)\/?$ index.php?c=black&a=index&type=$1&p=$2&keyword=$3 [L]
+# 黑名单-类型-分页
+RewriteRule ^black-(.*)-(\d+)\/?$ index.php?c=black&a=index&type=$1&p=$2 [L]
+# 黑名单-类型-搜索词
+RewriteRule ^black-(\d+)\/(.*)\/?$ index.php?c=black&a=index&type=$1&keyword=$2 [L]
+# 黑名单
+RewriteRule ^black\/?$ index.php?c=black&a=index [L]
+# 黑名单-详情页
+RewriteRule ^black_(\d+)\.html$ index.php?c=black&a=detail&id=$1 [L]
+
+
+# 排行榜-平台-类别-分页
+RewriteRule ^star-(\d+)\/top-(\d+)-(\d+)\/?$ index.php?c=star&a=index&platform=$1&starType=$2&p=$3 [L]
+# 排行榜-平台-类别
+RewriteRule ^star-(\d+)\/top-(\d+)\/?$ index.php?c=star&a=index&platform=$1&starType=$2 [L]
+# 排行榜-平台
+RewriteRule ^star-(\d+)\/?$ index.php?c=star&a=index&platform=$1 [L]
+# 排行榜-首页
+RewriteRule ^star\/?$ index.php?c=star&a=index [L]
+
+
+#诚信查询-企业搜索
+RewriteRule ^companylist\_(\d+)/(.*)$ index.php?c=rrtcredit&a=companylist&keyword=$2&p=$1 [L] 
+RewriteRule ^companylist\/(.*)$ index.php?c=rrtcredit&a=companylist&keyword=$1 [L] 
+
+#诚信查询-企业信用的详情页
+RewriteRule ^company_(\d+).html$ index.php?c=rrtcredit&a=companydetail&id=$1 [L] 
+RewriteRule ^company_(\d+)_(.*).html$ index.php?c=rrtcredit&a=companydetail&id=$1&keyword=$2 [L] 
+
+#诚信查询—个人信用详情页
+RewriteRule ^person\/(.*).html$ index.php?c=rrtcredit&a=personalsearchresult&keyword=$1 [L] 
+                                           
+# 上传路径过滤PHP
+RewriteRule ^s/upload/(.*)\.(php|php5)(.*)$ / [F]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.(js|ico|gif|jpg|jpeg|png|css|swf|xml|flv)$
+RewriteRule ^(.*)$ index.php/$1 [QSA,L]

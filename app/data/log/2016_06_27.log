@@ -1,0 +1,317 @@
+[ 2016-06-27T19:06:38+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T19:06:38+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T19:06:38+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T19:06:38+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T19:06:38+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T19:06:38+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T19:06:49+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T19:06:49+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T19:06:49+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `uid`,`is_token`,`token` FROM `admin_user` WHERE ( `username` = 'admin' ) LIMIT 1  
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.003001s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `admin_user` WHERE ( `username` = 'admin' ) LIMIT 1  
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `admin_user` WHERE ( `uid` = 1 ) LIMIT 1  
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_role_user`
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `role_id` FROM `admin_role_user` WHERE ( `uid` = 1 ) 
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.023001s SQL = SHOW COLUMNS FROM `admin_role_menu`
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `menu_id` FROM `admin_role_menu` WHERE role_id IN(1) 
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `role_id` FROM `admin_role_user` WHERE ( `uid` = 1 ) 
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `menu_id` FROM `admin_role_menu` WHERE role_id IN(1) 
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `username` FROM `admin_user` WHERE ( `uid` = 1 ) LIMIT 1  
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `area`
+[ 2016-06-27T19:06:49+08:00 ] ERR: Table 'finance.area' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `area`
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `ip_address`
+[ 2016-06-27T19:06:49+08:00 ] ERR: Table 'finance.ip_address' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ip_address`
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001001s SQL = SELECT `address`,`province`,`city` FROM `ip_address` WHERE num_begin <= '2130706433' AND num_end >= '2130706433' ORDER BY id asc LIMIT 1  
+[ 2016-06-27T19:06:49+08:00 ] ERR: Table 'finance.ip_address' doesn't exist
+ [ SQL语句 ] : SELECT `address`,`province`,`city` FROM `ip_address` WHERE num_begin <= '2130706433' AND num_end >= '2130706433' ORDER BY id asc LIMIT 1  
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `login`
+[ 2016-06-27T19:06:49+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `login`
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `login` (`type`,`uid`,`username`,`add_time`,`is_admin`,`ip`,`address`) VALUES (1,'1','admin',1467025609,1,'127.0.0.1','')
+[ 2016-06-27T19:06:49+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQL语句 ] : INSERT INTO `login` (`type`,`uid`,`username`,`add_time`,`is_admin`,`ip`,`address`) VALUES (1,'1','admin',1467025609,1,'127.0.0.1','')
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `user`
+[ 2016-06-27T19:06:49+08:00 ] NOTIC: [8] Undefined variable: set E:\xampp\htdocs\finance\framework\library\db\db.php 第 284 行.
+[ 2016-06-27T19:06:49+08:00 ] WARN: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\xampp\htdocs\finance\framework\library\db\db.php 第 284 行.
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.000000s SQL = UPDATE `user` SET 
+[ 2016-06-27T19:06:49+08:00 ] ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE `user` SET 
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `user`
+[ 2016-06-27T19:06:49+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `user` LIMIT 1  
+[ 2016-06-27T19:06:49+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T19:06:49+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T19:06:49+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT * FROM `admin_menu` ORDER BY `sort` ASC,id ASC 
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user_menu`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `admin_user_menu` WHERE uid = '1' ORDER BY id asc LIMIT 10  
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_role_user`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `role_id` FROM `admin_role_user` WHERE ( `uid` = 1 ) 
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_role_menu`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `menu_id` FROM `admin_role_menu` WHERE role_id IN(1) 
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: child E:\xampp\htdocs\finance\app\data\cache\tpl\admin\72f8f2cd1107aa30add9cf2d573f4529.php 第 36 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_role`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `name` FROM `admin_role` WHERE id = 1 LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `login`
+[ 2016-06-27T19:06:50+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `login`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `login` WHERE uid = 1 ORDER BY id desc LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `login` WHERE uid = 1 ORDER BY id desc LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `user`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `attachment`
+[ 2016-06-27T19:06:50+08:00 ] ERR: Table 'finance.attachment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `attachment`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001001s SQL = SELECT COUNT(*) AS tp_count FROM `attachment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] ERR: Table 'finance.attachment' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `attachment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `comment`
+[ 2016-06-27T19:06:50+08:00 ] ERR: Table 'finance.comment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comment`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] ERR: Table 'finance.comment' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.000000s SQL = SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `feedback`
+[ 2016-06-27T19:06:50+08:00 ] ERR: Table 'finance.feedback' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `feedback`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.000000s SQL = SELECT COUNT(*) AS tp_count FROM `feedback` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] ERR: Table 'finance.feedback' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `feedback` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `gifts_order`
+[ 2016-06-27T19:06:50+08:00 ] ERR: Table 'finance.gifts_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gifts_order`
+[ 2016-06-27T19:06:50+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `gifts_order` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] ERR: Table 'finance.gifts_order' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gifts_order` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: identifying E:\xampp\htdocs\finance\app\model\admin\adminuser.php 第 65 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: identifying E:\xampp\htdocs\finance\app\model\admin\adminuser.php 第 65 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T19:06:50+08:00 ] NOTIC: [8] Undefined index: ip E:\xampp\htdocs\finance\app\data\cache\tpl\admin\820e2d240855ede53d506c7ac598f1f7.php 第 39 行.
+[ 2016-06-27T19:16:50+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T19:16:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T19:16:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T19:16:50+08:00 ] SQL:  RunTime:0.000000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T19:16:50+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T19:26:50+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T19:26:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T19:26:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T19:26:50+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T19:26:50+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T19:36:50+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T19:36:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T19:36:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T19:36:50+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T19:36:50+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T19:46:50+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T19:46:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T19:46:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T19:46:50+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T19:46:50+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T19:56:50+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T19:56:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T19:56:50+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T19:56:50+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T19:56:50+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:52:03+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:52:03+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:52:03+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:52:03+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:52:03+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:52:03+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.023002s SQL = SELECT `uid`,`is_token`,`token` FROM `admin_user` WHERE ( `username` = 'admin' ) LIMIT 1  
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT * FROM `admin_user` WHERE ( `username` = 'admin' ) LIMIT 1  
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT * FROM `admin_user` WHERE ( `uid` = 1 ) LIMIT 1  
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_role_user`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `role_id` FROM `admin_role_user` WHERE ( `uid` = 1 ) 
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_role_menu`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `menu_id` FROM `admin_role_menu` WHERE role_id IN(1) 
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001001s SQL = SELECT `role_id` FROM `admin_role_user` WHERE ( `uid` = 1 ) 
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `menu_id` FROM `admin_role_menu` WHERE role_id IN(1) 
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `username` FROM `admin_user` WHERE ( `uid` = 1 ) LIMIT 1  
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `area`
+[ 2016-06-27T20:52:16+08:00 ] ERR: Table 'finance.area' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `area`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `ip_address`
+[ 2016-06-27T20:52:16+08:00 ] ERR: Table 'finance.ip_address' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ip_address`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `address`,`province`,`city` FROM `ip_address` WHERE num_begin <= '2130706433' AND num_end >= '2130706433' ORDER BY id asc LIMIT 1  
+[ 2016-06-27T20:52:16+08:00 ] ERR: Table 'finance.ip_address' doesn't exist
+ [ SQL语句 ] : SELECT `address`,`province`,`city` FROM `ip_address` WHERE num_begin <= '2130706433' AND num_end >= '2130706433' ORDER BY id asc LIMIT 1  
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `login`
+[ 2016-06-27T20:52:16+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `login`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `login` (`type`,`uid`,`username`,`add_time`,`is_admin`,`ip`,`address`) VALUES (1,'1','admin',1467031936,1,'127.0.0.1','')
+[ 2016-06-27T20:52:16+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQL语句 ] : INSERT INTO `login` (`type`,`uid`,`username`,`add_time`,`is_admin`,`ip`,`address`) VALUES (1,'1','admin',1467031936,1,'127.0.0.1','')
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `user`
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined variable: set E:\xampp\htdocs\finance\framework\library\db\db.php 第 284 行.
+[ 2016-06-27T20:52:16+08:00 ] WARN: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\xampp\htdocs\finance\framework\library\db\db.php 第 284 行.
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001001s SQL = UPDATE `user` SET 
+[ 2016-06-27T20:52:16+08:00 ] ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE `user` SET 
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `user`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `user` LIMIT 1  
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user_menu`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `admin_user_menu` WHERE uid = '1' ORDER BY id asc LIMIT 10  
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_role_user`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.000000s SQL = SELECT `role_id` FROM `admin_role_user` WHERE ( `uid` = 1 ) 
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_role_menu`
+[ 2016-06-27T20:52:16+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `menu_id` FROM `admin_role_menu` WHERE role_id IN(1) 
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:52:16+08:00 ] NOTIC: [8] Undefined index: child E:\xampp\htdocs\finance\app\data\cache\tpl\admin\72f8f2cd1107aa30add9cf2d573f4529.php 第 36 行.
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_role`
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `name` FROM `admin_role` WHERE id = 1 LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `login`
+[ 2016-06-27T20:52:17+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `login`
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `login` WHERE uid = 1 ORDER BY id desc LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `login` WHERE uid = 1 ORDER BY id desc LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `user`
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `attachment`
+[ 2016-06-27T20:52:17+08:00 ] ERR: Table 'finance.attachment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `attachment`
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `attachment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] ERR: Table 'finance.attachment' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `attachment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `comment`
+[ 2016-06-27T20:52:17+08:00 ] ERR: Table 'finance.comment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comment`
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] ERR: Table 'finance.comment' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `feedback`
+[ 2016-06-27T20:52:17+08:00 ] ERR: Table 'finance.feedback' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `feedback`
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `feedback` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] ERR: Table 'finance.feedback' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `feedback` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `gifts_order`
+[ 2016-06-27T20:52:17+08:00 ] ERR: Table 'finance.gifts_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gifts_order`
+[ 2016-06-27T20:52:17+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `gifts_order` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] ERR: Table 'finance.gifts_order' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gifts_order` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: identifying E:\xampp\htdocs\finance\app\model\admin\adminuser.php 第 65 行.
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: identifying E:\xampp\htdocs\finance\app\model\admin\adminuser.php 第 65 行.
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:52:17+08:00 ] NOTIC: [8] Undefined index: ip E:\xampp\htdocs\finance\app\data\cache\tpl\admin\820e2d240855ede53d506c7ac598f1f7.php 第 39 行.
+[ 2016-06-27T20:52:43+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:52:43+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:52:43+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:52:43+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T20:52:43+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:52:43+08:00 ] NOTIC: [8] Undefined index: 3 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 130 行.
+[ 2016-06-27T20:52:44+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:52:44+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:52:44+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:52:44+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T20:52:44+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:52:44+08:00 ] NOTIC: [8] Undefined index: 4 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 130 行.
+[ 2016-06-27T20:52:45+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:52:45+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:52:45+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:52:46+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T20:52:46+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:52:46+08:00 ] NOTIC: [8] Undefined index: 2 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 130 行.
+[ 2016-06-27T20:52:46+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:52:46+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:52:46+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:52:46+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T20:52:46+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:52:46+08:00 ] NOTIC: [8] Undefined index: 4 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 130 行.
+[ 2016-06-27T20:52:47+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:52:47+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:52:47+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:52:47+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T20:52:47+08:00 ] NOTIC: [8] Undefined index: 28 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 90 行.
+[ 2016-06-27T20:52:47+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:52:47+08:00 ] NOTIC: [8] Undefined index: 4 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 134 行.
+[ 2016-06-27T20:53:00+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:53:00+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:53:00+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:53:00+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T20:53:00+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:53:00+08:00 ] NOTIC: [8] Undefined index: 2 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 130 行.
+[ 2016-06-27T20:53:01+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:53:01+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:53:01+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:53:01+08:00 ] SQL:  RunTime:0.000000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T20:53:01+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:53:01+08:00 ] NOTIC: [8] Undefined index: 1 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 130 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:53:06+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: 11 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 90 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: 1 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 134 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img E:\xampp\htdocs\finance\app\controller\abstract.php 第 61 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 62 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img2 E:\xampp\htdocs\finance\app\controller\abstract.php 第 63 行.
+[ 2016-06-27T20:53:06+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: 11 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 90 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-06-27T20:53:06+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-06-27T20:53:06+08:00 ] SQL:  RunTime:0.002001s SQL = SELECT * FROM `admin_user` WHERE ( `uid` = 1 ) LIMIT 1  
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-06-27T20:53:06+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\8551311e01fc6030dd1f0ecbc755f8cf.php 第 31 行.

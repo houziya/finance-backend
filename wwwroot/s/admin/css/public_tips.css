@@ -1,0 +1,20 @@
+body,ul,ol{margin:0;padding:0; font-size:14px;}
+ul,ol{list-style:none;}
+body{background:#fff; color:#1f376d}
+.clear{clear:both;font-size:0;line-height:0;height:0;}
+.wrap{ width:440px; margin:0 auto}
+.content{ border:1px solid #aaccee; margin-top:60px; overflow:hidden}
+.tit{ background:url(../images/public_tips.jpg) no-repeat 0 -80px; line-height:33px; height:33px; text-indent:40px;}
+.wbox{ padding:8px 10px; overflow:hidden}
+.w_l{ float:left; width:90px; height:90px; border-right:1px solid #e6e6e6; padding-top:10px;}
+.w_r{ float:right; width:305px;}
+.msg{ line-height:25px; height:60px; padding:20px 0 0 0; font-weight:bold}
+.msg span{ padding:2px 8px;background:url(../images/public_tips.jpg) no-repeat -320px 0;}
+.go{font-size:12px; color:#333333;text-align:right}
+.go a{color:#000000;text-decoration:underline;background:url(../images/public_tips.jpg) no-repeat -400px 0; padding-left:18px;}
+.go a:hover{color:#FF0000;}
+.ico{ width:80px; height:80px; background:url(../images/public_tips.jpg) no-repeat -240px 0;}
+.success{ width:80px; height:80px; background:url(../images/public_tips.jpg) no-repeat 0 0;}
+.error{ width:80px; height:80px; background:url(../images/public_tips.jpg) no-repeat -80px 0;}
+.warn{ width:80px; height:80px; background:url(../images/public_tips.jpg) no-repeat -160px 0;}
+.b1{color:blue;font-weight:bold}

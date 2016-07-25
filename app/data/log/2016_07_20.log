@@ -1,0 +1,613 @@
+[ 2016-07-20T08:41:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T08:41:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T08:44:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T08:44:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T08:51:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T08:51:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T08:54:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T08:54:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:01:24+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:01:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:04:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:04:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:11:24+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:11:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:13:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:13:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:13:16+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:13:16+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:13:16+08:00 ] SQL:  RunTime:0.020001s SQL = SELECT sort_client_id, code, SUM(`amount`) as `amount`, COUNT(*) as `degreen` FROM `expense` where start_time >= 1468771200 AND start_time < 1468857600 group by sort_client_id
+[ 2016-07-20T09:13:16+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `expense_collect`
+[ 2016-07-20T09:13:16+08:00 ] SQL:  RunTime:0.004000s SQL = INSERT INTO `expense_collect` (`sort_client_id`,`code`,`amount`,`degreen`,`add_time`,`topdate`,`type`) VALUES (97,'9C001F0B-0CBC-AA77-588D-C1D2BF9B7D27','0.00',9,1468977196,'2016-07-18',0),(101,'4EDF4071-230F-DC4E-7F8B-FC5DBF84D50F','0.00',1,1468977196,'2016-07-18',0),(102,'9FE23230-E987-4402-CED3-6044AE1023CB','120.00',3,1468977196,'2016-07-18',0),(103,'D10454B5-16D0-0A02-3D64-A72EC120B15D','42.00',10,1468977196,'2016-07-18',0)
+[ 2016-07-20T09:13:23+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:13:23+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:13:31+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:13:31+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:13:31+08:00 ] NOTIC: [8] Undefined index: 43 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 130 行.
+[ 2016-07-20T09:13:33+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:13:33+08:00 ] NOTIC: [8] Undefined index: 45 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 90 行.
+[ 2016-07-20T09:13:33+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:13:33+08:00 ] NOTIC: [8] Undefined index: 43 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 134 行.
+[ 2016-07-20T09:13:33+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:13:33+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:13:33+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware`
+[ 2016-07-20T09:13:33+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense_collect`
+[ 2016-07-20T09:13:33+08:00 ] SQL:  RunTime:0.001001s SQL = SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:13:33+08:00 ] ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:13:33+08:00 ] SQL:  RunTime:0.037002s SQL = SELECT count(*) AS count FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `type` = 0 ) LIMIT 1  
+[ 2016-07-20T09:13:33+08:00 ] SQL:  RunTime:0.016001s SQL = SELECT e.id,e.sort_client_id,e.topdate,e.amount,e.degreen,c.sort_id,c.sort_ver_id,c.company,c.mobile,c.subbranch,v.version,s.name FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `type` = 0 ) LIMIT 0,20  
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 28 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 28 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 28 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: mobile E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 31 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: subbranch E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 33 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:13:34+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:13:59+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:13:59+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:13:59+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:13:59+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:13:59+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware`
+[ 2016-07-20T09:13:59+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense_collect`
+[ 2016-07-20T09:13:59+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:13:59+08:00 ] ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:13:59+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT count(*) AS count FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `type` = '1' ) LIMIT 1  
+[ 2016-07-20T09:13:59+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT e.id,e.sort_client_id,e.topdate,e.amount,e.degreen,c.sort_id,c.sort_ver_id,c.company,c.mobile,c.subbranch,v.version,s.name FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `type` = '1' ) LIMIT 0,20  
+[ 2016-07-20T09:13:59+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:13:59+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:13:59+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:13:59+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:13:59+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:13:59+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:13:59+08:00 ] NOTIC: [8] Undefined variable: mobile E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 31 行.
+[ 2016-07-20T09:13:59+08:00 ] NOTIC: [8] Undefined variable: subbranch E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 33 行.
+[ 2016-07-20T09:14:04+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:14:04+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:14:04+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:14:04+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:14:04+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware`
+[ 2016-07-20T09:14:04+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `expense_collect`
+[ 2016-07-20T09:14:04+08:00 ] SQL:  RunTime:0.000000s SQL = SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:14:04+08:00 ] ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:14:04+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT count(*) AS count FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `type` = '0' ) LIMIT 1  
+[ 2016-07-20T09:14:04+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT e.id,e.sort_client_id,e.topdate,e.amount,e.degreen,c.sort_id,c.sort_ver_id,c.company,c.mobile,c.subbranch,v.version,s.name FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `type` = '0' ) LIMIT 0,20  
+[ 2016-07-20T09:14:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:14:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:14:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:04+08:00 ] NOTIC: [8] Undefined variable: mobile E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 31 行.
+[ 2016-07-20T09:14:04+08:00 ] NOTIC: [8] Undefined variable: subbranch E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 33 行.
+[ 2016-07-20T09:14:15+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:14:15+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:14:15+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware`
+[ 2016-07-20T09:14:15+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `expense_collect`
+[ 2016-07-20T09:14:15+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:14:15+08:00 ] ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:14:15+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT count(*) AS count FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `name` = '管家婆辉煌2' ) AND ( `sort_client_id` = '103' ) AND ( `type` = '0' ) LIMIT 1  
+[ 2016-07-20T09:14:15+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT e.id,e.sort_client_id,e.topdate,e.amount,e.degreen,c.sort_id,c.sort_ver_id,c.company,c.mobile,c.subbranch,v.version,s.name FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `name` = '管家婆辉煌2' ) AND ( `sort_client_id` = '103' ) AND ( `type` = '0' ) LIMIT 0,20  
+[ 2016-07-20T09:14:15+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:14:15+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:14:15+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:15+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:15+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:15+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:39+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:14:39+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:14:39+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:14:39+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:14:39+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware`
+[ 2016-07-20T09:14:39+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense_collect`
+[ 2016-07-20T09:14:39+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:14:39+08:00 ] ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:14:39+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT count(*) AS count FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `name` = '管家婆辉煌2' ) AND ( `type` = '1' ) LIMIT 1  
+[ 2016-07-20T09:14:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:14:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:14:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:45+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:14:45+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:14:45+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:14:45+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:14:45+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware`
+[ 2016-07-20T09:14:45+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense_collect`
+[ 2016-07-20T09:14:45+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:14:45+08:00 ] ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:14:45+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT count(*) AS count FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `name` = '管家婆辉煌2' ) AND ( `type` = '2' ) LIMIT 1  
+[ 2016-07-20T09:14:45+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:14:45+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:14:45+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:45+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:45+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:45+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:49+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:14:49+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware`
+[ 2016-07-20T09:14:49+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense_collect`
+[ 2016-07-20T09:14:49+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:14:49+08:00 ] ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:14:49+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT count(*) AS count FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `type` = 0 ) LIMIT 1  
+[ 2016-07-20T09:14:49+08:00 ] SQL:  RunTime:0.002001s SQL = SELECT e.id,e.sort_client_id,e.topdate,e.amount,e.degreen,c.sort_id,c.sort_ver_id,c.company,c.mobile,c.subbranch,v.version,s.name FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `type` = 0 ) LIMIT 0,20  
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 28 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 28 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 28 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: mobile E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 31 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: subbranch E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 33 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined variable: type E:\xampp\htdocs\finance\app\data\cache\tpl\admin\9ed69551cca0d969cc2c89f9046a23ad.php 第 65 行.
+[ 2016-07-20T09:14:49+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined index: 45 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 90 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:14:49+08:00 ] NOTIC: [8] Undefined index: 43 E:\xampp\htdocs\finance\app\library\helper\tree.php 第 134 行.
+[ 2016-07-20T09:14:56+08:00 ] SQL:  RunTime:0.000000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:14:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:21:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:21:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:24:39+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:24:39+08:00 ] SQL:  RunTime:0.017001s SQL = SELECT * FROM `admin_menu` ORDER BY `sort` ASC,id ASC 
+[ 2016-07-20T09:24:39+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:24:39+08:00 ] SQL:  RunTime:0.014001s SQL = SHOW COLUMNS FROM `sortware`
+[ 2016-07-20T09:24:39+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense_collect`
+[ 2016-07-20T09:24:39+08:00 ] SQL:  RunTime:0.001001s SQL = SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:24:39+08:00 ] ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM expense_collect e
+[ 2016-07-20T09:24:39+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT count(*) AS count FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `name` = '圣手v9.7' ) AND ( `sort_client_id` = '102' ) AND ( `type` = '0' ) LIMIT 1  
+[ 2016-07-20T09:24:39+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT e.id,e.sort_client_id,e.topdate,e.amount,e.degreen,c.sort_id,c.sort_ver_id,c.company,c.mobile,c.subbranch,v.version,s.name FROM expense_collect e LEFT JOIN sortware_client c ON c.id = e.sort_client_id LEFT JOIN sortware_version v ON v.id = c.sort_ver_id LEFT JOIN sortware s ON s.id = c.sort_id WHERE ( `name` = '圣手v9.7' ) AND ( `sort_client_id` = '102' ) AND ( `type` = '0' ) LIMIT 0,20  
+[ 2016-07-20T09:24:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:24:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:24:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:24:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:24:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:24:39+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:24:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:24:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:31:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:31:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:34:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:34:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:41:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:41:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:44:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:44:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:51:24+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:51:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:54:56+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:54:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:59:02+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:59:02+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:59:02+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user_menu`
+[ 2016-07-20T09:59:02+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT * FROM `admin_user_menu` WHERE uid = '1' ORDER BY id asc LIMIT 10  
+[ 2016-07-20T09:59:02+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-07-20T09:59:02+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_role_user`
+[ 2016-07-20T09:59:02+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `role_id` FROM `admin_role_user` WHERE ( `uid` = 1 ) 
+[ 2016-07-20T09:59:02+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_role_menu`
+[ 2016-07-20T09:59:02+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT `menu_id` FROM `admin_role_menu` WHERE role_id IN(1) 
+[ 2016-07-20T09:59:02+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:59:02+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:59:02+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:59:02+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:59:02+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:59:02+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T09:59:03+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_role`
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.002001s SQL = SELECT `name` FROM `admin_role` WHERE id = 1 LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `login`
+[ 2016-07-20T09:59:03+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `login`
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `login` WHERE uid = 1 ORDER BY id desc LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] ERR: Table 'finance.login' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `login` WHERE uid = 1 ORDER BY id desc LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_user`
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.019001s SQL = SHOW COLUMNS FROM `user`
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `attachment`
+[ 2016-07-20T09:59:03+08:00 ] ERR: Table 'finance.attachment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `attachment`
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.003000s SQL = SELECT COUNT(*) AS tp_count FROM `attachment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] ERR: Table 'finance.attachment' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `attachment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `comment`
+[ 2016-07-20T09:59:03+08:00 ] ERR: Table 'finance.comment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comment`
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] ERR: Table 'finance.comment' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `feedback`
+[ 2016-07-20T09:59:03+08:00 ] ERR: Table 'finance.feedback' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `feedback`
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.003000s SQL = SELECT COUNT(*) AS tp_count FROM `feedback` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] ERR: Table 'finance.feedback' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `feedback` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.003001s SQL = SHOW COLUMNS FROM `gifts_order`
+[ 2016-07-20T09:59:03+08:00 ] ERR: Table 'finance.gifts_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gifts_order`
+[ 2016-07-20T09:59:03+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT COUNT(*) AS tp_count FROM `gifts_order` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] ERR: Table 'finance.gifts_order' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gifts_order` WHERE ( `status` = 0 ) LIMIT 1  
+[ 2016-07-20T09:59:03+08:00 ] NOTIC: [8] Undefined index: identifying E:\xampp\htdocs\finance\app\model\admin\adminuser.php 第 65 行.
+[ 2016-07-20T09:59:03+08:00 ] NOTIC: [8] Undefined index: identifying E:\xampp\htdocs\finance\app\model\admin\adminuser.php 第 65 行.
+[ 2016-07-20T09:59:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:59:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 58 行.
+[ 2016-07-20T09:59:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:59:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:59:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:59:04+08:00 ] NOTIC: [8] Undefined index: img4 E:\xampp\htdocs\finance\app\library\helper\view.php 第 120 行.
+[ 2016-07-20T09:59:04+08:00 ] NOTIC: [8] Undefined index: ip E:\xampp\htdocs\finance\app\data\cache\tpl\admin\820e2d240855ede53d506c7ac598f1f7.php 第 39 行.
+[ 2016-07-20T10:01:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:01:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:04:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:04:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:09:09+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:09:10+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:11:24+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:11:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:14:56+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:14:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:19:04+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:19:04+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:21:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:21:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:24:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:24:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:29:04+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:29:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:31:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:31:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:34:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:34:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:39:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:39:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:41:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:41:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:44:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:44:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:49:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:49:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:51:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:51:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:54:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:54:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T10:59:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T10:59:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:01:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:01:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:04:57+08:00 ] SQL:  RunTime:0.003001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:04:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:09:05+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:09:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:11:29+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:11:29+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:14:57+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:14:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:19:05+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:19:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:21:24+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:21:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:24:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:24:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:29:05+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:29:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:31:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:31:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:34:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:34:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:39:05+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:39:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:41:24+08:00 ] SQL:  RunTime:0.003001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:41:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:44:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:44:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:49:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:49:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:51:24+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:51:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:54:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:54:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T11:59:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T11:59:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:01:24+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:01:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:04:57+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:04:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:09:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:09:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:11:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:11:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:14:57+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:14:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:19:05+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:19:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:21:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:21:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:24:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:24:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:29:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:29:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:31:24+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:31:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:34:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:34:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:39:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:39:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:41:24+08:00 ] SQL:  RunTime:0.000000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:41:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:44:57+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:44:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:49:05+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:49:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:51:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:51:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:54:57+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:54:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T12:59:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T12:59:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:01:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:01:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:04:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:04:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:09:05+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:09:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:11:24+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:11:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:14:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:14:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:19:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:19:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:21:24+08:00 ] SQL:  RunTime:0.001001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:21:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:24:57+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:24:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:29:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:29:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:31:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:31:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:34:57+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:34:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:39:05+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:39:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:41:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:41:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:44:57+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:44:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:49:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:49:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:51:24+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:51:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:54:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:54:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:59:05+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:59:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T13:59:48+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T13:59:48+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:00:02+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:00:02+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:01:24+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:01:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:04:57+08:00 ] SQL:  RunTime:0.004000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:04:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:09:05+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:09:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:09:29+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:09:29+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:09:32+08:00 ] SQL:  RunTime:0.003001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:09:32+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:11:00+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:11:00+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:11:25+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:11:25+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:14:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:14:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:15:12+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:15:12+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:15:14+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:15:14+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:19:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:19:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:21:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:21:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:24:57+08:00 ] SQL:  RunTime:0.004000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:24:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:29:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:29:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:31:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:31:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:32:32+08:00 ] SQL:  RunTime:0.003001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:32:32+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:34:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:34:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:39:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:39:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:41:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:41:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:44:57+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:44:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:48:44+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:48:44+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:48:48+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:48:48+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:49:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:49:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:49:33+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:49:33+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:51:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:51:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:54:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:54:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:56:23+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:56:23+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T14:59:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T14:59:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:01:24+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:01:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:04:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:04:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:09:05+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:09:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:11:24+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:11:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:14:57+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:14:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:16:12+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:16:12+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:16:16+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:16:16+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:19:05+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:19:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:20:11+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:20:11+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:21:09+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:21:09+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:21:12+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:21:12+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:21:14+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:21:14+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:21:15+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:21:15+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:21:24+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:21:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:21:31+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:21:31+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:21:33+08:00 ] SQL:  RunTime:0.004000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:21:33+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:22:04+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:22:04+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:22:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:22:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:22:40+08:00 ] SQL:  RunTime:0.004000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:22:40+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:22:42+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:22:42+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:24:58+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:24:58+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:26:34+08:00 ] SQL:  RunTime:0.004001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:26:34+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:29:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:29:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:31:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:31:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:31:56+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:31:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:31:59+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:31:59+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:34:57+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:34:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:35:46+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:35:46+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:35:49+08:00 ] SQL:  RunTime:0.003001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:35:49+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:35:51+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:35:51+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:39:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:39:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:41:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:41:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:44:57+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:44:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:49:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:49:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:49:38+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:49:38+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:49:40+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:49:40+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:50:27+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:50:28+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:50:28+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:50:29+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:50:30+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:50:30+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:51:24+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:51:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:52:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:52:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:54:57+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:54:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:56:10+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:56:10+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:56:11+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:56:11+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T15:59:05+08:00 ] SQL:  RunTime:0.003001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T15:59:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:01:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:01:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:04:57+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:04:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:09:05+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:09:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:11:08+08:00 ] SQL:  RunTime:0.004000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:11:08+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:11:36+08:00 ] SQL:  RunTime:0.003001s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:11:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:12:44+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:12:44+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:13:06+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:13:06+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:14:57+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:14:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:17:11+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:17:11+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:18:01+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:18:01+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:18:21+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:18:21+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:18:58+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:18:58+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:19:05+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:19:05+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:21:24+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:21:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:24:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:24:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:31:24+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:31:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:34:57+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:34:57+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:35:36+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:35:36+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:38:25+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:38:25+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:38:25+08:00 ] WARN: [2] sqlsrv_query() expects parameter 1 to be resource, object given E:\xampp\htdocs\finance\app\controller\admin\statisticsCommand.php 第 23 行.
+[ 2016-07-20T16:38:25+08:00 ] WARN: [2] sqlsrv_fetch_array() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\finance\app\controller\admin\statisticsCommand.php 第 24 行.
+[ 2016-07-20T16:38:56+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:38:56+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:38:56+08:00 ] WARN: [2] sqlsrv_query() expects parameter 1 to be resource, object given E:\xampp\htdocs\finance\app\controller\admin\statisticsCommand.php 第 23 行.
+[ 2016-07-20T16:38:56+08:00 ] WARN: [2] sqlsrv_fetch_array() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\finance\app\controller\admin\statisticsCommand.php 第 24 行.
+[ 2016-07-20T16:41:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:41:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T16:51:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T16:51:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.
+[ 2016-07-20T17:01:24+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `admin_menu`
+[ 2016-07-20T17:01:24+08:00 ] NOTIC: [8] Use of undefined constant EFFECTIVE_TIME - assumed 'EFFECTIVE_TIME' E:\xampp\htdocs\finance\app\controller\admin\abstract.php 第 21 行.

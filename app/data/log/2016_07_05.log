@@ -1,0 +1,230 @@
+[ 2016-07-05T10:34:46+08:00 ] SQL:  RunTime:0.019002s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T10:34:46+08:00 ] NOTIC: [8] Undefined index: field E:\xampp\htdocs\finance\app\controller\api\software.php 第 944 行.
+[ 2016-07-05T10:34:53+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T10:34:53+08:00 ] WARN: [2048] Declaration of model_finance_softwareInstallVerify::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareinstallverify.php 第 116 行.
+[ 2016-07-05T10:34:53+08:00 ] SQL:  RunTime:0.021001s SQL = SHOW COLUMNS FROM `sortware_install_verify`
+[ 2016-07-05T10:34:53+08:00 ] WARN: [2048] Declaration of model_finance_softwareCodeBatchInfo::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwarecodebatchinfo.php 第 64 行.
+[ 2016-07-05T10:34:53+08:00 ] SQL:  RunTime:0.008001s SQL = SHOW COLUMNS FROM `client_code_batchinfo`
+[ 2016-07-05T10:34:54+08:00 ] WARN: [2048] Declaration of model_finance_softwareClient::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareclient.php 第 136 行.
+[ 2016-07-05T10:34:54+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client`
+[ 2016-07-05T10:34:54+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client`
+[ 2016-07-05T10:34:54+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `sortware_client` WHERE ( `identification` = '12233333' ) LIMIT 1  
+[ 2016-07-05T10:34:54+08:00 ] SQL:  RunTime:0.030002s SQL = INSERT INTO `sortware_install_verify` (`code`,`identification`,`type`) VALUES ('24D3921F-F39E-309C-9AE8-F4D4BD43CF36','12233333',1)
+[ 2016-07-05T10:34:54+08:00 ] ERR: Duplicate entry '24D3921F-F39E-309C-9AE8-F4D4BD43CF36' for key 'unique_code'
+ [ SQL语句 ] : INSERT INTO `sortware_install_verify` (`code`,`identification`,`type`) VALUES ('24D3921F-F39E-309C-9AE8-F4D4BD43CF36','12233333',1)
+[ 2016-07-05T11:33:30+08:00 ] SQL:  RunTime:0.020001s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T11:33:30+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T11:33:30+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `sortware_client_oparation` WHERE ( `id` = 17 ) LIMIT 1  
+[ 2016-07-05T11:33:30+08:00 ] WARN: [2048] Declaration of model_finance_softwareInstallVerify::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareinstallverify.php 第 116 行.
+[ 2016-07-05T11:33:30+08:00 ] SQL:  RunTime:0.025001s SQL = SHOW COLUMNS FROM `sortware_install_verify`
+[ 2016-07-05T11:33:30+08:00 ] WARN: [2048] Declaration of model_finance_softwareCodeBatchInfo::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwarecodebatchinfo.php 第 64 行.
+[ 2016-07-05T11:33:30+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `client_code_batchinfo`
+[ 2016-07-05T11:33:30+08:00 ] WARN: [2048] Declaration of model_finance_softwareClient::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareclient.php 第 136 行.
+[ 2016-07-05T11:33:30+08:00 ] SQL:  RunTime:0.022001s SQL = SHOW COLUMNS FROM `sortware_client`
+[ 2016-07-05T11:33:30+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client`
+[ 2016-07-05T11:33:30+08:00 ] SQL:  RunTime:0.015001s SQL = SELECT * FROM `sortware_client` WHERE ( `identification` = '12233333' ) LIMIT 1  
+[ 2016-07-05T11:33:30+08:00 ] SQL:  RunTime:0.050003s SQL = INSERT INTO `sortware_install_verify` (`code`,`identification`,`type`) VALUES ('24D3921F-F39E-309C-9AE8-F4D4BD43CF36','12233333',1)
+[ 2016-07-05T11:33:30+08:00 ] ERR: Duplicate entry '24D3921F-F39E-309C-9AE8-F4D4BD43CF36' for key 'unique_code'
+ [ SQL语句 ] : INSERT INTO `sortware_install_verify` (`code`,`identification`,`type`) VALUES ('24D3921F-F39E-309C-9AE8-F4D4BD43CF36','12233333',1)
+[ 2016-07-05T15:01:33+08:00 ] SQL:  RunTime:0.012001s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:01:33+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:01:33+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `sortware_client_oparation` WHERE ( `id` = 12 ) LIMIT 1  
+[ 2016-07-05T15:01:33+08:00 ] WARN: [2048] Declaration of model_finance_softwareClientQueryconfig::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareclientqueryconfig.php 第 70 行.
+[ 2016-07-05T15:01:33+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_queryconfig`
+[ 2016-07-05T15:01:33+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_queryconfig`
+[ 2016-07-05T15:01:33+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `sortware_client_queryconfig` WHERE ( `id` = 22 ) LIMIT 1  
+[ 2016-07-05T15:02:27+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:02:27+08:00 ] WARN: [2048] Declaration of model_finance_softwareClientQueryconfig::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareclientqueryconfig.php 第 70 行.
+[ 2016-07-05T15:02:27+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_queryconfig`
+[ 2016-07-05T15:02:27+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_queryconfig`
+[ 2016-07-05T15:02:27+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT * FROM `sortware_client_queryconfig` WHERE ( `id` = 22 ) LIMIT 1  
+[ 2016-07-05T15:02:50+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:02:50+08:00 ] WARN: [2048] Declaration of model_finance_softwareClientQueryconfig::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareclientqueryconfig.php 第 70 行.
+[ 2016-07-05T15:02:50+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `sortware_client_queryconfig`
+[ 2016-07-05T15:02:50+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_queryconfig`
+[ 2016-07-05T15:02:50+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT * FROM `sortware_client_queryconfig` WHERE ( `id` = 1 ) LIMIT 1  
+[ 2016-07-05T15:03:10+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:03:10+08:00 ] WARN: [2048] Declaration of model_finance_softwareClientQueryconfig::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareclientqueryconfig.php 第 70 行.
+[ 2016-07-05T15:03:10+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_queryconfig`
+[ 2016-07-05T15:03:10+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_queryconfig`
+[ 2016-07-05T15:03:10+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `sortware_client_queryconfig` WHERE ( `id` = 3 ) LIMIT 1  
+[ 2016-07-05T15:12:59+08:00 ] WARN: [2048] Declaration of model_finance_softwareClient::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareclient.php 第 136 行.
+[ 2016-07-05T15:12:59+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `sortware_client`
+[ 2016-07-05T15:12:59+08:00 ] SQL:  RunTime:0.003000s SQL = SHOW COLUMNS FROM `sortware_client`
+[ 2016-07-05T15:12:59+08:00 ] SQL:  RunTime:0.003001s SQL = SELECT * FROM `sortware_client` WHERE ( `id` = 1 ) LIMIT 1  
+[ 2016-07-05T15:13:26+08:00 ] WARN: [2048] Declaration of model_finance_softwareClient::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\softwareclient.php 第 136 行.
+[ 2016-07-05T15:13:26+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client`
+[ 2016-07-05T15:13:26+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client`
+[ 2016-07-05T15:13:26+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `sortware_client` WHERE ( `id` = 42 ) LIMIT 1  
+[ 2016-07-05T15:13:26+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:13:26+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:13:26+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `sortware_client_oparation` WHERE ( `id` = 13 ) LIMIT 1  
+[ 2016-07-05T15:38:00+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:00+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:00+08:00 ] SQL:  RunTime:0.002000s SQL = SELECT * FROM `sortware_client_oparation` WHERE ( `id` = 10 ) LIMIT 1  
+[ 2016-07-05T15:38:04+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:10+08:00 ] SQL:  RunTime:0.059004s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:10+08:00 ] SQL:  RunTime:0.055003s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:10+08:00 ] SQL:  RunTime:0.050003s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:11+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:12+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:13+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:14+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:15+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:16+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:17+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:18+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T15:38:19+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:24:00+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:24:00+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:24:00+08:00 ] SQL:  RunTime:0.001000s SQL = SELECT * FROM `sortware_client_oparation` WHERE ( `id` = 15 ) LIMIT 1  
+[ 2016-07-05T16:24:00+08:00 ] NOTIC: [8] Undefined variable: end_time E:\xampp\htdocs\finance\app\controller\api\software.php 第 771 行.
+[ 2016-07-05T16:24:00+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 21 行.
+[ 2016-07-05T16:24:01+08:00 ] SQL:  RunTime:0.045002s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:24:01+08:00 ] SQL:  RunTime:0.051003s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707040,null)
+[ 2016-07-05T16:24:01+08:00 ] ERR: Duplicate entry '2016-06-26 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707040,null)
+[ 2016-07-05T16:27:19+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:27:19+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 21 行.
+[ 2016-07-05T16:27:19+08:00 ] SQL:  RunTime:0.001001s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:27:19+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707239,'1466611200')
+[ 2016-07-05T16:27:19+08:00 ] ERR: Duplicate entry '2016-06-26 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707239,'1466611200')
+[ 2016-07-05T16:27:21+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:27:21+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 21 行.
+[ 2016-07-05T16:27:21+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:27:21+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707241,'1466611200')
+[ 2016-07-05T16:27:21+08:00 ] ERR: Duplicate entry '2016-06-26 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707241,'1466611200')
+[ 2016-07-05T16:27:34+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:27:34+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 21 行.
+[ 2016-07-05T16:27:34+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:27:34+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707254,'1466611200')
+[ 2016-07-05T16:27:34+08:00 ] ERR: Duplicate entry '2016-06-26 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707254,'1466611200')
+[ 2016-07-05T16:28:10+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:28:10+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 21 行.
+[ 2016-07-05T16:28:10+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:28:10+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707290,'1466611200')
+[ 2016-07-05T16:28:10+08:00 ] ERR: Duplicate entry '2016-06-26 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707290,'1466611200')
+[ 2016-07-05T16:32:30+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:32:30+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 22 行.
+[ 2016-07-05T16:32:30+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:32:30+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707550,'1466611200')
+[ 2016-07-05T16:32:30+08:00 ] ERR: Duplicate entry '2016-06-26 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707550,'1466611200')
+[ 2016-07-05T16:32:30+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:33:43+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:33:43+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:33:43+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:33:43+08:00 ] SQL:  RunTime:0.000000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707623,'1466611200')
+[ 2016-07-05T16:33:43+08:00 ] ERR: Duplicate entry '2016-06-26 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707623,'1466611200')
+[ 2016-07-05T16:34:28+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:34:28+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:34:28+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:34:28+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707668,'1466611200')
+[ 2016-07-05T16:34:28+08:00 ] ERR: Duplicate entry '2016-06-26 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707668,'1466611200')
+[ 2016-07-05T16:34:28+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:37:26+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:37:27+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:37:27+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:37:27+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707847,'1466611200')
+[ 2016-07-05T16:37:27+08:00 ] ERR: Duplicate entry '2016-06-26 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707847,'1466611200')
+[ 2016-07-05T16:38:14+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:38:14+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:38:14+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:38:14+08:00 ] SQL:  RunTime:0.000000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707894,'1466611200')
+[ 2016-07-05T16:38:14+08:00 ] ERR: Duplicate entry '2016-06-26 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467707894,'1466611200')
+[ 2016-07-05T16:40:48+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:40:48+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:40:48+08:00 ] SQL:  RunTime:0.001001s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:40:48+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708048,1466611200)
+[ 2016-07-05T16:40:48+08:00 ] ERR: Duplicate entry '2016-06-26 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','20160626','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708048,1466611200)
+[ 2016-07-05T16:41:43+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:41:43+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:41:43+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:41:43+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','11111111','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708103,1466611200)
+[ 2016-07-05T16:45:00+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:45:00+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:45:00+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:45:00+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1466611201','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708300,1466611200)
+[ 2016-07-05T16:45:00+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1466611201','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708300,1466611200)
+[ 2016-07-05T16:45:30+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:45:30+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:45:30+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:45:30+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708330,1466611200)
+[ 2016-07-05T16:45:30+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708330,1466611200)
+[ 2016-07-05T16:45:31+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:45:31+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:45:31+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:45:31+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708331,1466611200)
+[ 2016-07-05T16:45:31+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708331,1466611200)
+[ 2016-07-05T16:45:32+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:45:32+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:45:32+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:45:32+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708332,1466611200)
+[ 2016-07-05T16:45:32+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708332,1466611200)
+[ 2016-07-05T16:45:33+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:45:33+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:45:33+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:45:33+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708333,1466611200)
+[ 2016-07-05T16:45:33+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708333,1466611200)
+[ 2016-07-05T16:47:46+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:47:46+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:47:46+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:47:46+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708466,1466611200)
+[ 2016-07-05T16:47:46+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708466,1466611200)
+[ 2016-07-05T16:47:47+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:47:47+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:47:47+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:47:47+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708467,1466611200)
+[ 2016-07-05T16:47:47+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708467,1466611200)
+[ 2016-07-05T16:47:49+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:47:49+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:47:49+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:47:49+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708469,1466611200)
+[ 2016-07-05T16:47:49+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708469,1466611200)
+[ 2016-07-05T16:47:50+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:47:50+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:47:50+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:47:50+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708470,1466611200)
+[ 2016-07-05T16:47:50+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708470,1466611200)
+[ 2016-07-05T16:47:51+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:47:51+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:47:51+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:47:51+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708471,1466611200)
+[ 2016-07-05T16:47:51+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708471,1466611200)
+[ 2016-07-05T16:47:52+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:47:52+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:47:52+08:00 ] SQL:  RunTime:0.002000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:47:52+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708472,1466611200)
+[ 2016-07-05T16:47:52+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708472,1466611200)
+[ 2016-07-05T16:49:42+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:49:42+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:49:42+08:00 ] SQL:  RunTime:0.002001s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:49:42+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708582,1466611200)
+[ 2016-07-05T16:49:42+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708582,1466611200)
+[ 2016-07-05T16:49:44+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `sortware_client_oparation`
+[ 2016-07-05T16:49:44+08:00 ] WARN: [2048] Declaration of model_finance_expense::save() should be compatible with that of model::save() E:\xampp\htdocs\finance\app\model\finance\expense.php 第 20 行.
+[ 2016-07-05T16:49:44+08:00 ] SQL:  RunTime:0.001000s SQL = SHOW COLUMNS FROM `expense`
+[ 2016-07-05T16:49:44+08:00 ] SQL:  RunTime:0.001000s SQL = INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708584,1466611200)
+[ 2016-07-05T16:49:44+08:00 ] ERR: Duplicate entry '0000-00-00 00:00:00' for key 'topdate'
+ [ SQL语句 ] : INSERT INTO `expense` (`sort_client_id`,`code`,`topdate`,`db_sql`,`source`,`amount`,`data`,`add_time`,`end_time`) VALUES (1,'b7b7-ee17-6566-0103','1468611200','select * from aa where begin_time>\'2016-06-24 06:50:00\' and end_time<\'2016-06-24 07:00:00\'',1,'23','23',1467708584,1466611200)
